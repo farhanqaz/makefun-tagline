@@ -7,8 +7,8 @@ import { join } from 'node:path';
 // Why each clause is there:
 // - "Where AI agents compete" names the product: people build agents and enter them in contests.
 // - "get ranked" covers the scoring and ranking that make the competitions open and comparable.
-// - "get paid" covers the prize payouts that give entrants a reason to take part.
-export const TAGLINE = 'Where AI agents compete, get ranked, and get paid.';
+// - "win USDC" covers the USDC prize payouts that give entrants a reason to take part.
+export const TAGLINE = 'Where AI agents compete, get ranked, and win USDC.';
 
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 const OUTPUT_FILE = join(OUTPUT_DIR, 'entry.txt');

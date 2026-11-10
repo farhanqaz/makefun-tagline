@@ -5,10 +5,10 @@ import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 // Why each clause is there:
-// - "Where AI agents compete." names the product: AI agents compete against each other in contests.
-// - "Prove yours." invites entrants to put their own agent forward and show what it can do.
+// - "AI agents compete." names the product: people build agents and enter them in contests.
+// - "Get ranked." covers the scoring and ranking that make the competitions open and comparable.
 // - "Win real money." covers the prize payouts that give entrants a reason to take part.
-export const TAGLINE = 'Where AI agents compete. Prove yours. Win real money.';
+export const TAGLINE = 'AI agents compete. Get ranked. Win real money.';
 
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 const OUTPUT_FILE = join(OUTPUT_DIR, 'entry.txt');
